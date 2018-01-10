@@ -1,0 +1,6 @@
+if ps aux | grep "Chrome Refresh" | grep -v grep > /dev/null
+then
+echo "Running"
+else
+echo "Not running"
+fi
